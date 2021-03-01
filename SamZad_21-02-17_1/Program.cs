@@ -14,7 +14,7 @@ namespace SamZad_21_02_17_1
             Console.Write("Введите число: ");
             Double A = Double.Parse(Console.ReadLine());
 
-            Console.Write("Послдовтельность: " + (A-1) + " ; " + (A) + " ; " + (A +1));
+            Console.Write("Последовательность: " + (A-1) + " ; " + (A) + " ; " + (A +1));
             Console.ReadKey();
         }
     }
