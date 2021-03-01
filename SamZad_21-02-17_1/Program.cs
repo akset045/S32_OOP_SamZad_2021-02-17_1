@@ -10,12 +10,15 @@ namespace SamZad_21_02_17_1
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.Write("Введите число: ");
-            Double A = Double.Parse(Console.ReadLine());
 
-            Console.Write("Последовательность: " + (A-1) + " ; " + (A) + " ; " + (A +1));
-            Console.ReadKey();
+            while (true) {
+                Console.OutputEncoding = System.Text.Encoding.UTF8;
+                Console.Write("Введите число: ");
+                Double A = Double.Parse(Console.ReadLine());
+                Console.WriteLine("Последовательность: " + (A - 1) + " ; " + (A) + " ; " + (A + 1));
+                Console.WriteLine();
+                A = 0;
+            }
         }
     }
 }
