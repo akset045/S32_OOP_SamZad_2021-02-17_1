@@ -10,7 +10,6 @@ namespace SamZad_21_02_17_1
     {
         static void Main(string[] args)
         {
-
             while (true) {
                 Console.OutputEncoding = System.Text.Encoding.UTF8;
                 Console.Write("Введите число: ");
